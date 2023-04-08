@@ -14,15 +14,11 @@ struct ContentView: View {
             .font(.largeTitle)
             .fontWeight(.semibold)
             
+            CustomerButtonUi()
             
-            ButtonUi()
-            
-            Button("Resturant Owner") {
-                print("Resturant Owner")
-            }
+            ResturantOwnerUiButton()
         }
         
-        Text("tst")
     }
 }
 

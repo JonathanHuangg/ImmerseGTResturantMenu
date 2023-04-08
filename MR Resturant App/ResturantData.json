@@ -1,0 +1,56 @@
+{
+    "id": 1,
+    "name": "Foo Bar and Grill",
+    "weeklyschedule": {
+        "monday": {
+            "openingHour": 8,
+            "openingMinute": 30,
+            "closingHour": 9,
+            "closingMinute": 30
+        },
+        "tuesday": {
+            "openingHour": 8,
+            "openingMinute": 30,
+            "closingHour": 9,
+            "closingMinute": 30
+        },
+        "wednesday": {
+            "openingHour": 8,
+            "openingMinute": 30,
+            "closingHour": 9,
+            "closingMinute": 30
+        },
+        "thursday": {
+            "openingHour": 8,
+            "openingMinute": 30,
+            "closingHour": 9,
+            "closingMinute": 30
+        },
+        "friday": {
+            "openingHour": 8,
+            "openingMinute": 30,
+            "closingHour": 9,
+            "closingMinute": 30
+        },
+        "saturday": {
+            "openingHour": 10,
+            "openingMinute": 30,
+            "closingHour": 11,
+            "closingMinute": 30
+        },
+        "sunday": {
+            "openingHour": 10,
+            "openingMinute": 30,
+            "closingHour": 11,
+            "closingMinute": 30
+        }
+    },
+    "Location": {
+        "country": "USA",
+        "state": "GA",
+        "localAddress": "123 Main St",
+        "zipcode": 12345
+    },
+    "description": "A wonderful restaurant that serves delicious food!",
+    "imagename": "FOO BAR AND GRILL PIC"
+}

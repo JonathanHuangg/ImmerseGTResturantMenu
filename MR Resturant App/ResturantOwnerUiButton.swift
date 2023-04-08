@@ -6,23 +6,22 @@
 //
 
 import SwiftUI
-
-struct CustomerButtonUi: View {
+struct ResturantOwnerUiButton: View {
     var body: some View {
         Button(action: {
             print("") //This will have to jump to Customer Page
         }) {
-            Text("Customer")
+            Text("Resturant Owner")
                 .foregroundColor(.purple)
                 .font(.largeTitle)
                 .padding()
-                .border(Color.purple, width: 5)
+                .border(.purple, width: 5)
         }
     }
 }
 
-struct ButtonUi_Previews: PreviewProvider {
+struct ResturantOwnerUiButton_Previews: PreviewProvider {
     static var previews: some View {
-        CustomerButtonUi()
+        ResturantOwnerUiButton()
     }
 }

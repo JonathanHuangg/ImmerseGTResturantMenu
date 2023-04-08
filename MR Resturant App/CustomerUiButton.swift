@@ -13,7 +13,7 @@ struct CustomerButtonUi: View {
             print("") //This will have to jump to Customer Page
         }) {
             Text("Customer")
-                .foregroundColor(.purple)
+                .foregroundColor(.RoseQuartz)
                 .font(.largeTitle)
                 .padding()
                 .border(Color.purple, width: 5)
