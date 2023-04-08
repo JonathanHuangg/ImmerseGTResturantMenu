@@ -14,6 +14,7 @@
 		AB654E6129E1DA3F003068BC /* MR_Resturant_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB654E6029E1DA3F003068BC /* MR_Resturant_AppTests.swift */; };
 		AB654E6B29E1DA3F003068BC /* MR_Resturant_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB654E6A29E1DA3F003068BC /* MR_Resturant_AppUITests.swift */; };
 		AB654E6D29E1DA3F003068BC /* MR_Resturant_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB654E6C29E1DA3F003068BC /* MR_Resturant_AppUITestsLaunchTests.swift */; };
+		AB654E7E29E1EBF2003068BC /* ButtonUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB654E7D29E1EBF1003068BC /* ButtonUi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		AB654E6629E1DA3F003068BC /* MR Resturant AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MR Resturant AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB654E6A29E1DA3F003068BC /* MR_Resturant_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MR_Resturant_AppUITests.swift; sourceTree = "<group>"; };
 		AB654E6C29E1DA3F003068BC /* MR_Resturant_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MR_Resturant_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB654E7D29E1EBF1003068BC /* ButtonUi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonUi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				AB654E4F29E1DA3B003068BC /* MR_Resturant_AppApp.swift */,
 				AB654E5129E1DA3B003068BC /* ContentView.swift */,
+				AB654E7D29E1EBF1003068BC /* ButtonUi.swift */,
 				AB654E5329E1DA3E003068BC /* Assets.xcassets */,
 				AB654E5529E1DA3E003068BC /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB654E5229E1DA3B003068BC /* ContentView.swift in Sources */,
+				AB654E7E29E1EBF2003068BC /* ButtonUi.swift in Sources */,
 				AB654E5029E1DA3B003068BC /* MR_Resturant_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
