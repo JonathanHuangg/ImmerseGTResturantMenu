@@ -9,8 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(alignment: .trailing) {
+            Text("I am a:")
+            .font(.largeTitle)
+            .fontWeight(.semibold)
+            
+            
+            Button("Customer") {
+                print("Customer")
+            }
+            
+            Button("Resturant Owner") {
+                print("Resturant Owner")
+            }
+        }
+        
+        
+        
     }
 }
 
